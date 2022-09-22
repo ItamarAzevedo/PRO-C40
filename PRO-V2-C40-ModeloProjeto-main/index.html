@@ -1,0 +1,38 @@
+<!DOCTYPE html><html lang="en"><head>
+  <script src="libraries/p5.js"></script>
+  <script src="libraries/p5.dom.min.js"></script>
+  <script src="libraries/p5.play.js"></script>
+
+  <script src="js/form.js"></script>
+
+<script src="js/game.js"></script>
+<script src="js/player.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/8.4.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.4.2/firebase-database.js"></script>
+
+<!--Adicione configuração do banco de dados abaixo-->
+
+<script>  
+
+const firebaseConfig = {
+  apiKey: "AIzaSyC6t4iI3Ta8EzmYH4jqXMHkJdZCsxS5xrA",
+  authDomain: "frutas-6e028.firebaseapp.com",
+  databaseURL: "https://frutas-6e028-default-rtdb.firebaseio.com",
+  projectId: "frutas-6e028",
+  storageBucket: "frutas-6e028.appspot.com",
+  messagingSenderId: "98272881804",
+  appId: "1:98272881804:web:e7f3a079c36876558e5fa9"
+};
+firebase.initializeApp(firebaseConfig); 
+</script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="utf-8">
+
+</head>
+<body>
+  <script src="sketch.js"></script>
+
+
+
+</body></html>
